@@ -35,8 +35,8 @@ const Layout = ({ children, location }) => {
           <Script
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Donald Boulton Personal Web Site' },
-              { name: 'keywords', content: 'Donald Boulton, personal' },
+              { name: 'description', content: 'Dennis Jojo Kuriakose Personal website ' },
+              { name: 'keywords', content: 'Dennis Jojo Kuriakose, Dennis Jojo, personal' },
             ]}
           >
             <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />

@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Donald Boulton - Dimension V4',
-    author: 'Donald Boulton',
-    siteUrl: 'https://donboulton.com',
+    title: 'Dennis Jojo Kuriakose | Portfolio',
+    author: 'Dennis Jojo Kuriakose',
+    siteUrl: 'https://atmozhish.gtsb.io',
     siteImage: '/static/assets/bg.jpg',
-    description: 'A Gatsby.js V4 Starter based on Dimension by HTML5 UP',
+    description: 'My Portfolio',
   },
   plugins: [
     {

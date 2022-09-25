@@ -6,7 +6,7 @@ import { SiGnuprivacyguard } from '@react-icons/all-files/si/SiGnuprivacyguard'
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <p className="copyright">
-      &copy; Dimension V4{' '}
+      &copy; Dennis Jojo Kuriakose{' '}
       <span>
         <RiHeart2Line
           style={{

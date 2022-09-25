@@ -9,11 +9,11 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension V4</h1>
+        <h1>Dennis Jojo Kuriakose</h1>
         <p>
-          A fully responsive site template designed by <a href="https://donboulton.com">Don Boulton</a> and released
+          A Computer Science Student from Kerala, India.
           <br />
-          for free under a <a href="https://donboulton.com/privacy">BSD</a> license.
+          and this is my Portfolio.
         </p>
       </div>
     </div>
@@ -23,20 +23,20 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('resume')
             }}
           >
-            Intro
+            Resume
           </a>
         </li>
         <li>
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('blog')
             }}
           >
-            Work
+            Blog
           </a>
         </li>
         <li>

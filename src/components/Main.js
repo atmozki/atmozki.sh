@@ -21,22 +21,22 @@ const Main = props => {
   return (
     <div ref={props.setWrapperRef} id="main" style={props.timeout ? { display: 'flex' } : { display: 'none' }}>
       <article
-        id="intro"
-        className={`${props.article === 'intro' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
+        id="resume"
+        className={`${props.article === 'resume' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
         style={{ display: 'none' }}
       >
         <Link to="https://bibwoe.com" rel="noopener noreferrer" target="_blank" area-label="Bibwoe">
-          <h2 className="major">Intro</h2>
+          <h2 className="major">resume</h2>
         </Link>
         <span className="image main">
           <Link to="https://bibwoe.com" rel="noopener noreferrer" target="_blank" area-label="Bibwoe">
-            <StaticImage formats={['auto', 'webp']} src="../../static/assets/pic01.jpg" alt="Intro" />
+            <StaticImage formats={['auto', 'webp']} src="../../static/assets/pic01.jpg" alt="resume" />
           </Link>
         </span>
         <p>
           Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.
           Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi
-          nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.
+          nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#blog">awesome blog</a>.
         </p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti
@@ -51,16 +51,16 @@ const Main = props => {
       </article>
 
       <article
-        id="work"
-        className={`${props.article === 'work' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
+        id="blog"
+        className={`${props.article === 'blog' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
         style={{ display: 'none' }}
       >
         <Link to="https://mansbooks.com" rel="noopener noreferrer" target="_blank" area-label="Mansbooks">
-          <h2 className="major">Work</h2>
+          <h2 className="major">blog</h2>
         </Link>
         <span className="image main">
           <Link to="https://mansbooks.com" rel="noopener noreferrer" target="_blank" area-label="Mansbooks">
-            <StaticImage formats={['auto', 'webp']} src="../../static/assets/pic02.jpg" alt="Work" />
+            <StaticImage formats={['auto', 'webp']} src="../../static/assets/pic02.jpg" alt="blog" />
           </Link>
         </span>
         <p>
@@ -138,7 +138,7 @@ const Main = props => {
         <ul className="icons">
           <li>
             <Link
-              to="https://twitter.com/donboulton"
+              to="https://twitter.com/username"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
@@ -156,7 +156,7 @@ const Main = props => {
           </li>
           <li>
             <Link
-              to="https://facebook.com/donboulton"
+              to="https://facebook.com/username"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
@@ -192,7 +192,7 @@ const Main = props => {
           </li>
           <li>
             <Link
-              to="https://gihub.com/donaldboulton/donboulton.com"
+              to="https://gihub.com/donaldboulton/username.com"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
@@ -210,7 +210,7 @@ const Main = props => {
           </li>
           <li>
             <Link
-              to="https://youtube.com/donboulton/"
+              to="https://youtube.com/username/"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"

@@ -1,33 +1,53 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Dennis Jojo's personal website",
-  "version": "1.0.0",
-  "author": "Dennis Jojo",
+  "name": "donald-boulton",
+  "description": "Donald Boulton Gatsby Starter - Dimension V4",
+  "version": "4.22.0",
+  "author": "Donald Boulton",
   "dependencies": {
-    "gatsby": "^2.19.5",
-    "gatsby-plugin-manifest": "^2.2.38",
-    "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sass": "^2.1.27",
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "@react-icons/all-files": "^4.1.0",
+    "gatsby": "^4.22.0",
+    "gatsby-plugin-gdpr-cookies": "^2.0.9",
+    "gatsby-plugin-manifest": "^4.22.0",
+    "gatsby-plugin-offline": "^5.22.0",
+    "gatsby-plugin-sass": "^5.22.0",
+    "gatsby-plugin-sharp": "^4.22.0",
+    "gatsby-plugin-sitemap": "^5.22.0",
+    "gatsby-source-filesystem": "^4.22.0",
+    "gatsby-transformer-sharp": "^4.22.0",
+    "react": "^18.2.0",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "^18.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby starter"
   ],
-  "license": "MIT",
+  "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "format": "prettier --write '**/*.js'",
+    "fix:prettier": "prettier --write \"**/*.{css,ts,js,jsx,tsx,json,md,mdx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@netlify/functions": "^1.0.0",
+    "@netlify/plugin-gatsby": "^3.4.4",
+    "gatsby-plugin-image": "^2.22.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.8"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/donaldboulton/donboulton.com"
+  },
+  "engines": {
+    "node": ">=16.16.0"
+  },
+  "AWS_LAMBDA_JS_RUNTIME": {
+    "node": ">=16.16.0"
   }
 }

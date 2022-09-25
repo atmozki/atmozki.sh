@@ -1,58 +1,63 @@
-import PropTypes from 'prop-types'
 import React from 'react'
+import PropTypes from 'prop-types'
+import Bio from './bio'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <Bio className="icon" />
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dennis Jojo Kuriakose</h1>
+        <h1>Dimension V4</h1>
         <p>
-          A Computer Science Student from Kerala, India.
+          A fully responsive site template designed by <a href="https://donboulton.com">Don Boulton</a> and released
           <br />
-          and this is my Portfolio.
+          for free under a <a href="https://donboulton.com/privacy">BSD</a> license.
         </p>
       </div>
     </div>
     <nav>
       <ul>
         <li>
-          <button
+          <a
+            href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('Resume')
+              props.onOpenArticle('intro')
             }}
           >
-            Resume
-          </button>
+            Intro
+          </a>
         </li>
         <li>
-          <button
+          <a
+            href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('Blog')
+              props.onOpenArticle('work')
             }}
           >
-            Blog
-          </button>
+            Work
+          </a>
         </li>
         <li>
-          <button
+          <a
+            href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('About')
+              props.onOpenArticle('about')
             }}
           >
             About
-          </button>
+          </a>
         </li>
         <li>
-          <button
+          <a
+            href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('Contact')
+              props.onOpenArticle('contact')
             }}
           >
             Contact
-          </button>
+          </a>
         </li>
       </ul>
     </nav>

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Dennis Jojo Kuriakose | Portfolio',
     author: 'Dennis Jojo Kuriakose',
-    siteUrl: 'https://atmozhish.gtsb.io',
+    siteUrl: 'https://atmozkish.gtsb.io',
     siteImage: '/static/assets/bg.jpg',
     description: 'My Portfolio',
   },
@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'dimension-v4',
-        short_name: 'Gatsby Starter',
+        name: 'Dennis Jojo Kuriakose | Portfolio',
+        short_name: 'Portfolio',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -44,13 +44,13 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: 'UA-000000-2', // leave empty if you want to disable the tracker
+          trackingId: 'UA-', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-analytics', // default
           anonymize: true, // default
           allowAdFeatures: false, // default
         },
         googleTagManager: {
-          trackingId: 'GTM-00000000', // leave empty if you want to disable the tracker
+          trackingId: 'GTM-', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-tagmanager', // default
           dataLayerName: 'dataLayer', // default
         },

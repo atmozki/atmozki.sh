@@ -1,4 +1,4 @@
-# gatsby-starter-dimension-v4
+# gatsby-starter-dimension-v4 (Portfolio v2)
 
 **This is a starter for Gatsby.js V4.11.0**
 

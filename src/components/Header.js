@@ -21,7 +21,7 @@ const Header = props => (
       <ul>
         <li>
           <a
-            href="javascript:;"
+            href="/#"
             onClick={() => {
               props.onOpenArticle('resume')
             }}
@@ -31,7 +31,7 @@ const Header = props => (
         </li>
         <li>
           <a
-            href="javascript:;"
+            href="/#"
             onClick={() => {
               props.onOpenArticle('blog')
             }}
@@ -41,7 +41,7 @@ const Header = props => (
         </li>
         <li>
           <a
-            href="javascript:;"
+            href="/#"
             onClick={() => {
               props.onOpenArticle('about')
             }}
@@ -51,7 +51,7 @@ const Header = props => (
         </li>
         <li>
           <a
-            href="#"
+            href="/#"
             onClick={() => {
               props.onOpenArticle('contact')
             }}

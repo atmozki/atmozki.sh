@@ -25,7 +25,7 @@ const Main = props => {
         className={`${props.article === 'resume' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
         style={{ display: 'none' }}
       >
-        <Link to="https://bibwoe.com" rel="noopener noreferrer" target="_blank" area-label="Bibwoe">
+        <Link to="https://github.com/atmozki" rel="noopener noreferrer" target="_blank" area-label="Git">
           <h2 className="major">resume</h2>
         </Link>
         <span className="image main">

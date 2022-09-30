@@ -78,7 +78,7 @@ class IndexPage extends React.Component {
   }
 
   handleClickOutside(event) {
-    if (this.wrapperRef && event.target.id == 'wrapper') {
+    if (this.wrapperRef && event.target.id === 'wrapper') {
       if (this.state.isArticleVisible) {
         this.handleCloseArticle()
       }
